@@ -6,9 +6,7 @@
 
 Toy neural network for image recognizing from scratch in less than 200 lines of code.
 
-This research and development project is written to aid my personal quest to gain an in-depth understanding 
-of deep learning. The project contains a simple two-layered neural network utilizing backpropagation 
-for weight adjustments. This code should only be used for educational purposes.
+This research and development project is written to aid my personal quest to gain an in-depth understanding of deep learning. The project contains a simple two-layered neural network utilizing backpropagation for weight adjustments. This code should only be used for educational purposes.
 
 # Results
 
@@ -18,6 +16,11 @@ Image | Prediction | Certainty
 ------------ | ------------- | -------------
 <img src="testdata/pac3.png" width=32px height=32px> | yes | 0.99
 <img src="testdata/ghost1.png" width=32px height=32px> | no | 0.05
+
+# Image dimensions
+
+The network evaluates blocks of 8 by 8 pixels. If you would like to use the network to predict a large image it is recommended to break the image up into 8 by 8 blocks, opposed to increasing the block size, for better results.
+
 
 # Build project
 
